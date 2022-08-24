@@ -15,7 +15,7 @@ const Form = () => {
             <div className='form-container'>
                 
                 {/* The left side of the form */}
-                <span className='close-bt'>x</span>
+                <span className='close-btn'>x</span>
                 <div className='form-content-left'>
                     <img className='form-img' src='img/img-2.svg' alt='spaceship' />
                 </div>

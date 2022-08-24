@@ -3,8 +3,11 @@ import './Form.css';
 
 const FormSuccess = () => {
   return (
-    <div>FormSuccess</div>
-  )
-}
+    <div className='form-content-right'>
+        <h1 className='form-success'>We have recieved your request!</h1>
+        <img className='form-img-2' src='img/img-3.svg' alt='success-photo' />
+    </div>
+  );
+};
 
 export default FormSuccess
